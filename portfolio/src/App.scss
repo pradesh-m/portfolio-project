@@ -1,0 +1,30 @@
+//imports: 
+@import 'animate.css';
+
+
+//Global Styles: 
+
+//Establishing primary color: 
+$primary-color : #4C31E3;
+
+//Setting up custom fonts. Also setting to TrueType font/ Woff2/ etc. depending on the file. 
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format("ttf");
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format("woff2");
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format("woff2");
+}
+
+//default font for text areas
+
+input, textarea {
+  font-family: 'Helvetica Neue';
+}
