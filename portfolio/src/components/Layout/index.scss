@@ -1,0 +1,25 @@
+
+//adding styling to navigation bar to make it fit
+.navigation-bar { 
+    background: #181818;
+    width: 100%;      /* Stretch across the entire screen width */
+    height: 80px;     /* Set a fixed height for the header */
+    position: fixed;  /* Fixed at the top, or you can use 'absolute' */
+    top: 0;
+    left: 0;          /* Align to the left side */
+    z-index: 3;
+
+    .logo {
+        display: block;
+        padding: 8px 0;
+
+        img {
+            display: block;
+            margin: 8px;   /* Adjust as needed for proper alignment */
+            width: 47px;
+            height: auto;
+        }
+    }
+
+    /* Additional styles for other navigation elements like links, etc. */
+}
