@@ -17,11 +17,11 @@ const Hero = () => {
             I've been pursuing my passion at MIT while majoring in CS & AI. 
           </p>
           <p className={`${styles.heroSubText} mt-10 text-white-100`}>
-            Outside of programming, I enjoy outdoor activities and recreational sports. I spent 
-            many hours in high school on my wrestling team and playing pick-up sports with friends.
+            Outside of programming, I enjoy outdoor activities and recreational sports. I've
+             been wrestling for five years and like to play pick-up sports with friends. 
           </p>
           <p className={`${styles.heroSubText} mt-10 text-white-100`}>
-            Take a look at some of my projects and feel free to reach out!           
+            Take a look at some of my projects, and feel free to reach out!           
           </p>
         </div>
       </div>
