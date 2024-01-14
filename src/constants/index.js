@@ -53,7 +53,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Current",
       points: [
-        "In Progress"
+        "In Progress",
+        ""
       ],
     },
 

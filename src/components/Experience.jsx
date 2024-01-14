@@ -21,7 +21,7 @@ const ExperienceCard = ({ title, company_name, icon, iconBg, date, points }) => 
       <img src={icon} alt={company_name} className="w-full h-full object-cover rounded-full" />
     </div>
     <div className="ml-4">
-      <h3 className="text-white font-bold">{title} - {company_name}</h3>
+      <h3 className="text-white font-bold">{title}</h3>
       <p className="text-secondary">{date}</p>
       <ul className="mt-2 text-secondary">
         {points.map((point, index) => (
