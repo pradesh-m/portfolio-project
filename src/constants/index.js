@@ -29,7 +29,7 @@ import {
       company_name: "NASA",
       icon: nasa,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jun 2022 - August 2022",
       points: [
         "Researched the urban heat island effect",
         "Used Python code to interpret and model satellite data"
@@ -40,7 +40,7 @@ import {
       company_name: "TravelDeeply",
       icon: traveldeeply,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Apr 2022 - Sep 2022",
       points: [
         "Developed a website using React.js, Tailwind, and MongoDB",
         "Managed 15 volunteering organizations as clients"
