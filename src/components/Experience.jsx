@@ -36,7 +36,7 @@ const Experience = () => {
   const [activeTab, setActiveTab] = useState(experiences[0].company_name);
 
   return (
-    <div className="min-h-screen"> {/* Full page height */}
+    <div className="min-h-20">
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText}`}>Experience:</h2>
       </motion.div>
