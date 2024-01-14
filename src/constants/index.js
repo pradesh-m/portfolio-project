@@ -1,28 +1,10 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
+    wip,
+    portfolio,
+    faceprog,
+    musicgen,
     starbucks,
     tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -79,26 +61,26 @@ import {
     {
       name: "Personal Portfolio",
       description:
-        "",
-      image: tripguide,
+        "A website containing the different experiences and projects that display my capabilities as an engineer. Made with React.js, Tailwind, and Framer Motion.",
+      image: portfolio,
     },
     {
-      name: "Trip Guide",
+      name: "Music Generation",
       description:
-        "",
-      image: tripguide,
+        "Optimized an RNN algorithm by vectorizing a text-based data set and managing loss while training it to generate music. Used Tensorflow, Google Colab, and MIT's public licensed libraries.",
+      image: musicgen,
     },
     {
-      name: "Trip Guide",
+      name: "Face Recognition",
       description:
-        "",
-      image: tripguide,
+        "Worked with a CNN algorithm and a SS-VAE loss function to improve a facial recognition model while mitigating bias and minimizing model uncertainty. Used Tensorflow, Google Colab, and MIT's public licensed libraries.",
+      image: faceprog,
     },
     {
-      name: "Trip Guide",
+      name: "Phat Chat",
       description:
-        "",
-      image: tripguide,
+        "Helped make a website for MIT's Web Lab competition, meant to be a combination of popular apps Life360 and Yelp. Used React.js, Tailwind, MongoDB, and several API's for functionality.",
+      image: wip,
     },
   ];
   
