@@ -3,8 +3,9 @@ import {
     portfolio,
     faceprog,
     musicgen,
-    starbucks,
-    tesla,
+    nasa,
+    traveldeeply,
+    mitcsail
   } from "../assets";
   
   export const navLinks = [
@@ -24,9 +25,9 @@ import {
   
   const experiences = [
     {
-      title: "Data Scientist",
+      title: "SEES Intern",
       company_name: "NASA",
-      icon: starbucks,
+      icon: nasa,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -37,21 +38,22 @@ import {
     {
       title: "Co-Founder & Lead Front-End Developer",
       company_name: "TravelDeeply",
-      icon: tesla,
+      icon: traveldeeply,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "description here"
+        "Developed a website using React.js, Tailwind, and MongoDB",
+        "Managed 15 volunteering organizations as clients"
       ],
     },
     {
       title: "Undergraduate Researcher",
-      company_name: "MIT's Computer Science and AI Laboratory ",
-      icon: tesla,
+      company_name: "MIT's CSAIL",
+      icon: mitcsail,
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Current",
       points: [
-        "description here"
+        "In Progress"
       ],
     },
 

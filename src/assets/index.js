@@ -25,8 +25,9 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import traveldeeply from "./traveldeeply.png"
+import nasa from "./nasa.png"
+import mitcsail from "./mitcsail.png"
 
 import wip from "./wip.png";
 import portfolio from "./portfolio.png"
@@ -35,6 +36,7 @@ import musicgen from "./musicgen.png"
 
 
 export {
+  traveldeeply,
   wip,
   portfolio,
   faceprog,
@@ -62,9 +64,9 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
-  tesla,
+  nasa,
   imageOfSelf,
   githubLogo,
   linkedinLogo,
+  mitcsail
 };
