@@ -33,9 +33,10 @@ import wip from "./wip.png";
 import portfolio from "./portfolio.png"
 import faceprog from "./faceprog.png"
 import musicgen from "./musicgen.png"
-
+import arcturus from "./arcturuslogo.png"
 
 export {
+  arcturus,
   traveldeeply,
   wip,
   portfolio,

@@ -5,7 +5,8 @@ import {
     musicgen,
     nasa,
     traveldeeply,
-    mitcsail
+    mitcsail,
+    arcturus
   } from "../assets";
   
   export const navLinks = [
@@ -48,8 +49,19 @@ import {
     },
     {
       title: "Undergraduate Researcher",
-      company_name: "MIT's CSAIL",
+      company_name: "MIT CSAIL",
       icon: mitcsail,
+      iconBg: "#E6DEDD",
+      date: "Jan 2024 - Current",
+      points: [
+        "In Progress",
+        ""
+      ],
+    },
+    {
+      title: "Autonomy Engineer",
+      company_name: "MIT Arcturus",
+      icon: arcturus,
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Current",
       points: [
