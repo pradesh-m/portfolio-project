@@ -55,7 +55,7 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           These are some of my projects that I have worked on independently or with labs and 
-          courses at MIT. Projects should have code available on my GitHub. ReadMEs on each project's
+          courses at MIT. Projects will typically have code available on my GitHub. ReadMEs on each project's
           repository will also contain more information. 
         </motion.p>
       </div>
