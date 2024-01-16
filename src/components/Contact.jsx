@@ -65,7 +65,7 @@ const Contact = () => {
 
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
+      <div className="flex-[0.6] bg-black-100 p-10 rounded-xl">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
