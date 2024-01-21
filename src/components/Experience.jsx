@@ -7,7 +7,7 @@ import { experiences } from "../constants";
 
 const Tab = ({ title, active, onClick }) => (
   <div
-    className={`cursor-pointer p-3 m-2 text-lg ${active ? "text-white" : "text-secondary"} bg-black bg-opacity-30 rounded-md`}
+    className={`cursor-pointer p-3 m-2 text-lg ${active ? "text-white" : "text-secondary"} bg-blue-950 bg-opacity-50 rounded-md`}
     onClick={onClick}
     style={{ minWidth: "120px", textAlign: "center" }}
   >
@@ -66,4 +66,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "");
+export default SectionWrapper(Experience, "experience");

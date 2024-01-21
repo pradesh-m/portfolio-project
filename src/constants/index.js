@@ -15,7 +15,7 @@ import {
       title: "About",
     },
     {
-      id: "works",
+      id: "experience",
       title: "Experience",
     },
     {
@@ -92,7 +92,7 @@ import {
       image: faceprog,
     },
     {
-      name: "Phat Chat",
+      name: "D1 Eats",
       description:
         "Helped make a website for MIT's Web Lab competition, meant to be a combination of popular apps Life360 and Yelp. Used React.js, Tailwind, MongoDB, and several API's for functionality.",
       image: wip,
