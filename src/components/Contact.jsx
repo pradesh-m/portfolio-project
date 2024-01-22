@@ -30,8 +30,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_8q7pn99',
+        'template_8wx011i',
         {
           from_name: form.name,
           to_name: "Pradesh Mainali",
@@ -39,7 +39,7 @@ const Contact = () => {
           to_email: "pradeshm@mit.edu",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'cRkAqEgJfVwGCldkV'
       )
       .then(
         () => {
@@ -69,35 +69,35 @@ const Contact = () => {
 
         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Name:</span>
+            <span className="text-white font-medium mb-4">Your Name:</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="Enter Name Here"
+              placeholder=" "
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Email:</span>
+            <span className="text-white font-medium mb-4">Your Email:</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="Enter Email Here"
+              placeholder=" "
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Message:</span>
+            <span className="text-white font-medium mb-4">Your Message:</span>
             <textarea
               rows={7}
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="Enter Message Here"
+              placeholder=" "
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>

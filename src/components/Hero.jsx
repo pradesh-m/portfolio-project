@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 import { imageOfSelf, githubLogo, linkedinLogo } from "../assets";
 import { styles } from "../styles";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section id = "about" className={`relative w-full h-screen mx-auto`}>
+    <section id = "about" className={`relative w-full h-screen mx-auto inset-0`}>
       {/* Text Row */}
-      <div className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
+      <div className={`absolute inset-0 top-[100px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             <span className='text-[#abdbe3]'>A Little About Me:</span>
