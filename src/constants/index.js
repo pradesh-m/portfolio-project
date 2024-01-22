@@ -54,8 +54,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Current",
       points: [
-        "In Progress",
-        ""
+        "Writing Python scripts to extract and store information from semi-structured documents",
+        "Work with Dr. Amar Gupta and contracted companies"
       ],
     },
     {
@@ -65,8 +65,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2024 - Current",
       points: [
-        "In Progress",
-        ""
+        "Developing software for the Arcturus boat’s autonomous functions including target detection and boat navigation",
+        "Using a Linux system, Python, C++, ROS2, and MOOS"
       ],
     },
 
