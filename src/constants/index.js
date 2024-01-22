@@ -1,5 +1,4 @@
 import {
-    wip,
     portfolio,
     faceprog,
     musicgen,
@@ -90,12 +89,6 @@ import {
       description:
         "Worked with a CNN algorithm and a SS-VAE loss function to improve a facial recognition model while mitigating bias and minimizing model uncertainty. Used Tensorflow, Google Colab, and MIT's public licensed libraries.",
       image: faceprog,
-    },
-    {
-      name: "D1 Eats",
-      description:
-        "Helped make a website for MIT's Web Lab competition, meant to be a combination of popular apps Life360 and Yelp. Used React.js, Tailwind, MongoDB, and several API's for functionality.",
-      image: wip,
     },
   ];
   
