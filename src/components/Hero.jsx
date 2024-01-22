@@ -26,22 +26,22 @@ const Hero = () => {
 
       {/* Image and Logos Row */}
 
-      <div className={`relative inset-0 top-[500px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
+      <div className={`relative top-[530px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         {/* Image */}
         <div>
-        <img src={imageOfSelf} alt="PersonalPicture" className="shadow-glow w-80 h-[30vh]" />
+        <img src={imageOfSelf} alt="PersonalPicture" className="shadow-glow w-80 h-[25vh]" />
         </div>
 
         {/* Social Icons Column */}
         <div className='flex flex-col items-center justify-between'>
           {/* LinkedIn Icon */}
           <a href="https://www.linkedin.com/in/pradesh-mainali-02ab0b264/" target="_blank" rel="noopener noreferrer" className="mb-4">
-            <img src={linkedinLogo} alt="LinkedIn" className="w-20 mt-0 h-[8vh]" />
+            <img src={linkedinLogo} alt="LinkedIn" className="w-20 mt-0 h-[6vh]" />
           </a>
 
           {/* GitHub Icon */}
           <a href="https://github.com/pradesh-m" target="_blank" rel="noopener noreferrer">
-            <img src={githubLogo} alt="GitHub" className="w-20 mt-0 h-[8vh]" />
+            <img src={githubLogo} alt="GitHub" className="w-20 mt-0 h-[6vh]" />
           </a>
         </div>
       </div>
