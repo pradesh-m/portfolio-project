@@ -28,7 +28,7 @@ const Hero = () => {
 
       {/* Image and Logos Row */}
 
-      <div className={`absolute inset-0 top-[600px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
+      <div className={`relative inset-0 top-[600px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         {/* Image */}
         <div>
           <img src={imageOfSelf} alt="Description" className="shadow-glow w-80 h-85" />
