@@ -14,7 +14,8 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             As an 18-year-old computer science researcher and programming practitioner,
-            I've been pursuing my passion at MIT while majoring in CS & AI. 
+            I've been pursuing my passion at MIT while majoring in CS & AI. I am always looking for
+            new opportunities to work hands on with a team of engineers. Feel free to reach out.
           </p>
           <p className={`${styles.heroSubText} mt-10 text-white-100`}>
             Outside of programming, I enjoy outdoor activities and recreational sports. I've
