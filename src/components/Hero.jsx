@@ -31,7 +31,7 @@ const Hero = () => {
       <div className={`relative inset-0 top-[600px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}>
         {/* Image */}
         <div>
-          <img src={imageOfSelf} alt="Description" className="shadow-glow w-80 h-85" />
+        <img src={imageOfSelf} alt="Description" className="shadow-glow w-80 h-85 sm:h-[20vh] md:h-[25vh] lg:h-[30vh]" />
         </div>
 
         {/* Social Icons Column */}
@@ -39,12 +39,12 @@ const Hero = () => {
 
           {/* LinkedIn Icon */}
           <a href="https://www.linkedin.com/in/pradesh-mainali-02ab0b264/" target="_blank" rel="noopener noreferrer" className="mb-4">
-            <img src={linkedinLogo} alt="LinkedIn" className="w-20 h-20 mt-3" />
+            <img src={linkedinLogo} alt="LinkedIn" className="w-20 mt-0 h-20 sm:h-[3vh] md:h-[3vh] lg:h-[8vh]" />
           </a>
 
           {/* GitHub Icon */}
           <a href="https://github.com/pradesh-m" target="_blank" rel="noopener noreferrer">
-            <img src={githubLogo} alt="GitHub" className="w-20 h-20 mt-20" />
+            <img src={githubLogo} alt="GitHub" className="w-20 mt-0 h-20 sm:h-[3vh] md:h-[3vh] lg:h-[8vh]" />
           </a>
         </div>
       </div>
